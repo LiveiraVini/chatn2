@@ -21,7 +21,7 @@ def realizarLogin():
     password = request.form.get('password')
     return f"Email:{email}, Password: {password}"
 
-    if(email == 'teste@teste.com' and password == '123456'):
+    if(email == 'teste@teste.com' and password == '1234567'):
         return 'login realizado com sucesso!'
     else:
         return 'Falha no login.'
