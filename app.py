@@ -19,7 +19,7 @@ def login():
 def realizarLogin():
     email = request.form.get('email')
     password = request.form.get('password')
-    return f"Email:{email}, Password: {password}"
+    #return f"Email:{email}, Password: {password}"
 
     if(email == 'teste@teste.com' and password == '1234567'):
         return 'login realizado com sucesso!'
